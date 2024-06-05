@@ -29,12 +29,12 @@ jobs:
         image_name:
           - silverblue
           - kinoite
-          - sericea
-          - onyx
+          #- sericea
+          #- onyx
           - base
-          - lazurite
-          - mate
-          - vauxite
+          #- lazurite
+          #- mate
+          #- vauxite
         exclude:
           # There is currently no Fedora 40 version of mate
           - image_name: mate
